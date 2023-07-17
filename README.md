@@ -15,11 +15,10 @@
 
 ## Sequential or parallel jobs in Github actions
 
-### Parallel jobs
+- Parallel jobs
 
 
-
-### Sequential jobs
+- Sequential jobs
 
 
 
