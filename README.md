@@ -43,7 +43,11 @@ For more information about jobs, see "Using jobs."
 
 https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows
 
-Events list for triggering a workflow:
+- Events
+An event is a specific activity in a repository that triggers a workflow run. For example, activity can originate from GitHub when someone creates a pull request, opens an issue, or pushes a commit to a repository. You can also trigger a workflow to run on a schedule, by posting to a REST API, or manually.
+For a complete list of events that can be used to trigger workflows, see Events that trigger workflows.
+
+- Events list for triggering a workflow:
 
 About events that trigger workflows
 
