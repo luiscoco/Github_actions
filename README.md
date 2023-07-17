@@ -43,82 +43,81 @@ For more information about jobs, see "Using jobs."
 
 https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows
 
-- Events. An event is a specific activity in a repository that triggers a workflow run. For example, activity can originate from GitHub when someone creates a pull request, opens an issue, or pushes a commit to a repository. You can also trigger a workflow to run on a schedule, by posting to a REST API, or manually.
+### Events. 
+An event is a specific activity in a repository that triggers a workflow run. For example, activity can originate from GitHub when someone creates a pull request, opens an issue, or pushes a commit to a repository. You can also trigger a workflow to run on a schedule, by posting to a REST API, or manually.
 For a complete list of events that can be used to trigger workflows, see Events that trigger workflows.
 
-- Events list for triggering a workflow:
+### Events list for triggering a workflow:
 
-About events that trigger workflows
+- branch_protection_rule
 
-branch_protection_rule
+- check_run
 
-check_run
+- check_suite
 
-check_suite
+- create
 
-create
+- delete
 
-delete
+- deployment
 
-deployment
+- deployment_status
 
-deployment_status
+- discussion
 
-discussion
+- discussion_comment
 
-discussion_comment
+- fork
 
-fork
+- gollum
 
-gollum
+- issue_comment
 
-issue_comment
+- issues
 
-issues
+- label
 
-label
+- merge_group
 
-merge_group
+- milestone
 
-milestone
+- page_build
 
-page_build
+- project
 
-project
+- project_card
 
-project_card
+- project_column
 
-project_column
+- public
 
-public
+- pull_request
 
-pull_request
+- pull_request_comment (use issue_comment)
 
-pull_request_comment (use issue_comment)
+- pull_request_review
 
-pull_request_review
+- pull_request_review_comment
 
-pull_request_review_comment
+- pull_request_target
 
-pull_request_target
+- push
 
-push
+- registry_package
 
-registry_package
+- release
 
-release
+- repository_dispatch
 
-repository_dispatch
+- schedule
 
-schedule
+- status
 
-status
+- watch
 
-watch
+- workflow_call
 
-workflow_call
+- workflow_dispatch
 
-workflow_dispatch
-
-workflow_run
+- workflow_run
 
